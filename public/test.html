@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<title>FancyBox 1.3.1 | Demonstration</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+
+</head>
+<body>
+<h3>Liste des médias</h3>
+
+ 
+ <script type="text/javascript">
+   $(document).ready(function() {
+
+
+		$(a#media5).fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+        });
+
+
+		$(a#media4).fancybox({
+				'titleShow'		: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+        });
+
+
+		$(a#media1).fancybox({
+				'titleShow'		: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+        });
+</script>
+
+		<a id="example2" href="./example/2_b.jpg"><img alt="example2" src="./example/2_s.jpg" /></a>
+		
+
+	
+  <div>
+
+		<a href="swfs/360" id="media5" >Swf</a>
+
+  </div>
+  <div>
+
+		<a href="http://localhost:3000/images/image2.jpg"><img alt="2eme image" height="100" id="media4" src="/images/image2.jpg?1284664682" width="200" /></a>
+
+  </div>
+  <div>
+
+		<a href="http://localhost:3000/images/image1.jpg"><img alt="Premier média" height="100" id="media1" src="/images/image1.jpg?1284664667" width="200" /></a>
+
+  </div>
+
+
+
+<div><p>&nbsp;</p></div>
+</body>
+</html>

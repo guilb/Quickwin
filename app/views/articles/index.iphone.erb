@@ -1,0 +1,24 @@
+<body>
+  <div id="topbar">
+    <div id="title">Articles</div>
+    <div id="leftnav">
+      <%= link_to image_tag("iphone_nav/home.png", :alt => "Accueil"), :controller =>"home" %>
+    </div>
+  </div>
+  <div id="content">
+    <ul class="pageitem">
+    <% @articles.each do |article| %>
+
+
+      <li class="menu">
+      <%= link_to(article) do %>
+        <%=  image_tag("iphone_nav/other.png", :alt => article.name) %>
+        <span class="name"><%= article.name %></span>
+        <span class="arrow"></span>
+      <% end %>
+
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</body>

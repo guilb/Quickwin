@@ -1,0 +1,13 @@
+<body>
+  <div id="topbar">
+    <div id="title"><%= @media.name %></div>
+    <div id="leftnav">
+      <%= link_to image_tag("iphone_nav/home.png", :alt => "Accueil"), :controller =>"home" %>
+      <%= link_to "Medias", :controller => "medias" %>
+    </div>
+  </div>
+  <div id="content">
+    <%=  image_tag(@media.file, :alt => @media.name)%>
+    
+  </div>
+</body>

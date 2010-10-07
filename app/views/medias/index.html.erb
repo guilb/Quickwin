@@ -1,0 +1,27 @@
+﻿<h1>Liste des médias</h1>
+
+
+<% @medias.each do |media| %>
+  <div>
+   <strong><%= media.name %></strong><br />
+    Fichier : <%= media.file %><br />
+    Type de média : <%= media.type %><br />
+    Extension : <%= media[:extension] %><br />
+	<% if media[:extension]=="jpg" %>
+		a<%= link_to image_tag(media.file, :alt => media.name, :width => "200", :height => "100"), ["http://localhost:3000/images/",media.file].join(''), :class =>"thickbox" %>
+	<% elsif media[:extension]=="swf" %>
+		b<%= link_to image_tag(media.file, :alt => media.name, :width => "200", :height => "100"), media, :class =>"thickbox" %>
+	<% else %>
+		<%= "probleme" %>
+	<% end %>
+	<!--<ul>
+		<li><%= link_to 'Voir le média', media %></li>
+		<li><%= link_to 'Editer', edit_media_path(media) %></li>
+		<li><%= link_to 'Supprimer', media, :confirm => 'Êtes vous certain de vouloir supprimer ce media?', :method => :delete %></li>
+	</ul>-->
+  </div>
+<% end %>
+
+<!--
+<%= link_to 'Ajouter un Média', new_media_path %>
+-->

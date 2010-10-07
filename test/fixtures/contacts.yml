@@ -1,0 +1,221 @@
+--- 
+contacts_001: 
+  id: 1
+  salutation: test
+  name: test
+  lastname: test
+  company: test
+  country: test
+  email: test
+  phone: test
+  gsm: test
+  fax: qsf
+  subject: fsqfs
+  message: "aaaaaaaaaaalm\xC3\xB9ml\xC3\xB9m\r\n\
+    \xC3\xB9\xC3\xB9akmkml\xC3\xB9\r\n\
+    fzdvs"
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:25:57.151233
+  updated_at: 2010-09-29 19:25:57.151233
+contacts_002: 
+  id: 2
+  salutation: mlkm
+  name: "lk\xC3\xB9mlk"
+  lastname: lk
+  company: !binary |
+    w7ls
+
+  country: km
+  email: !binary |
+    w7lsa8O5bQ==
+
+  phone: lk
+  gsm: "\xC3\xB9mlk"
+  fax: ml
+  subject: "kml\xC3\xB9"
+  message: !binary |
+    a23DuQ==
+
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:27:56.867080
+  updated_at: 2010-09-29 19:27:56.867080
+contacts_003: 
+  id: 3
+  salutation: mlkm
+  name: "lk\xC3\xB9mlk"
+  lastname: lk
+  company: !binary |
+    w7ls
+
+  country: km
+  email: !binary |
+    w7lsa8O5bQ==
+
+  phone: lk
+  gsm: "\xC3\xB9mlk"
+  fax: ml
+  subject: "kml\xC3\xB9"
+  message: !binary |
+    a23DuQ==
+
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:29:52.284681
+  updated_at: 2010-09-29 19:29:52.284681
+contacts_004: 
+  id: 4
+  salutation: ""
+  name: ""
+  lastname: ""
+  company: ""
+  country: ""
+  email: ""
+  phone: ""
+  gsm: ""
+  fax: ""
+  subject: ""
+  message: ""
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:33:59.436818
+  updated_at: 2010-09-29 19:33:59.436818
+contacts_005: 
+  id: 5
+  salutation: k
+  name: !binary |
+    w7lsaw==
+
+  lastname: mlk
+  company: ml
+  country: km
+  email: lk
+  phone: mlk
+  gsm: ml
+  fax: k
+  subject: sqcqsc
+  message: "\xC3\xB9mlksqqsc"
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:43:53.842816
+  updated_at: 2010-09-29 19:43:53.842816
+contacts_006: 
+  id: 6
+  salutation: ihhlkh
+  name: kjh
+  lastname: lkjhl
+  company: kjhl
+  country: kj
+  email: guilbertfrancois@gmail.com
+  phone: lk
+  gsm: lmkj
+  fax: ml
+  subject: ""
+  message: ""
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:51:46.769866
+  updated_at: 2010-09-29 19:51:46.769866
+contacts_007: 
+  id: 7
+  salutation: ""
+  name: ""
+  lastname: ""
+  company: ""
+  country: ""
+  email: guilbertfrancois@mail.com
+  phone: ""
+  gsm: ""
+  fax: ""
+  subject: ""
+  message: ""
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:52:42.669063
+  updated_at: 2010-09-29 19:52:42.669063
+contacts_008: 
+  id: 8
+  salutation: ihhlkh
+  name: kjh
+  lastname: lkjhl
+  company: kjhl
+  country: kj
+  email: guilbertfrancois@gmail.com
+  phone: lk
+  gsm: lmkj
+  fax: ml
+  subject: ""
+  message: ""
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:53:36.163123
+  updated_at: 2010-09-29 19:53:36.163123
+contacts_009: 
+  id: 9
+  salutation: ihhlkh
+  name: kjh
+  lastname: lkjhl
+  company: kjhl
+  country: kj
+  email: guilbertfrancois@gmail.com
+  phone: lk
+  gsm: lmkj
+  fax: ml
+  subject: fsqfs
+  message: aefzef
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:53:50.952969
+  updated_at: 2010-09-29 19:53:50.952969
+contacts_010: 
+  id: 10
+  salutation: lmnkm
+  name: lkn
+  lastname: lkn
+  company: mlknlmkn
+  country: "\xC3\xB9oj\xC3\xB9likj"
+  email: guilbertfrancois@gmail.com
+  phone: klkj
+  gsm: lkj
+  fax: mlkj
+  subject: mmlk
+  message: jmlkj
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 19:58:44.895781
+  updated_at: 2010-09-29 19:58:44.895781
+contacts_011: 
+  id: 11
+  salutation: ml,lk,
+  name: ":;,"
+  lastname: "!:;,"
+  company: ":;"
+  country: ,:;
+  email: guilbertfrancois@mail.com
+  phone: "\xC3\xB9mlk,lk,"
+  gsm: lkjn
+  fax: lkj
+  subject: k
+  message: jlk
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 20:08:52.974561
+  updated_at: 2010-09-29 20:08:52.974561
+contacts_012: 
+  id: 12
+  salutation: "\xC3\xB9mkkplj"
+  name: lkjmlk
+  lastname: jmlkjh
+  company: jlmkj
+  country: mkj
+  email: francois.guilbert@neoweb.fr
+  phone: kkmlkl
+  gsm: jklkmj
+  fax: lkmj
+  subject: lmkj
+  message: ""
+  callmeback: 
+  appointement: 1
+  created_at: 2010-09-29 20:15:53.137593
+  updated_at: 2010-09-29 20:15:53.137593

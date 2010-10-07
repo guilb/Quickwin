@@ -1,0 +1,48 @@
+﻿<h3>Liste des médias</h3>
+
+ <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+<% for media in list_medias %>
+
+
+	<% if media[:extension]=="jpg" %>
+		$("<%=  ["a#media",media.id].join('')%>").fancybox({
+				'titleShow'		: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+	<% elsif media[:extension]=="swf" %>
+		$("<%=  ["a#media",media.id].join('')%>").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+	<% else %>
+		<%= "probleme" %>
+	<% end %>
+
+<% end %>
+			
+		});
+	</script>
+
+
+	
+<% for media in list_medias %>
+  <div>
+
+	<% if media[:extension]=="jpg" %>
+		<%= link_to image_tag(media.file, :alt => media.name, :width => "200", :height => "100"), ["http://localhost:3000/images/",media.file].join(''), :id => ["media",media.id].join('') %>
+	<% elsif media[:extension]=="swf" %>
+		<a href="swfs/<%= media.file %>" id="<%= ["media",media.id].join('') %>" >Swf</a>
+	<% else %>
+		<%= "probleme" %>
+	<% end %>
+
+  </div>
+<% end %>
+

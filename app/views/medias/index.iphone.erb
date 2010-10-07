@@ -1,0 +1,41 @@
+<body class="list">
+  <div id="topbar">
+    <div id="title">Medias</div>
+    <div id="leftnav">
+      <%= link_to image_tag("iphone_nav/home.png", :alt => "Accueil"), :controller =>"home" %>
+
+    </div>
+  </div>
+  <div id="content">
+    <ul>
+      <li class="title">Images</li>
+    <% @medias.each do |media| %>
+
+
+      <li class="withimage">
+      <% if media[:extension]=="jpg" %>
+        <%= link_to(media) do %>
+          <%=  image_tag(["thumbs/",media.file].join(''), :alt => media.name)%>
+          <span class="name"><%= media.name %></span>
+          <span class="arrow"></span>
+        <% end %>
+      <% elsif media[:extension]=="mp4" %>
+        <%= link_to(["images/",media.file].join('')) do %>
+          <%=  image_tag(["thumbs/",media.file].join(''), :alt => media.name)%>
+          <span class="name"><%= media.name %></span>
+          <span class="arrow"></span>
+        <% end %>
+      <% elsif media[:extension]=="swf" %>
+          <%= link_to(media) do %>
+          <%=  image_tag(["thumbs/",media.file].join(''), :alt => media.name)%>
+          <span class="name"><%= media.name %></span>
+          <span class="arrow"></span>
+        <% end %>
+      <% end %>
+      </li>
+    <% end %>
+      <li class="title">Animation</li>
+      <li class="title">Vidéo</li>
+    </ul>
+  </div>
+</body>

@@ -1,0 +1,44 @@
+--- 
+articles_001: 
+  id: 1
+  name: presentation
+  title: presentation
+  content: blablabla
+  created_at: 2010-09-23 19:02:10.646328
+  updated_at: 2010-09-23 19:02:10.646328
+articles_002: 
+  id: 2
+  name: le mot de larchi
+  title: le mot de larchi
+  content: |
+    bloup bloup
+    bloup
+    bloup
+
+  created_at: 2010-09-23 19:02:43.812225
+  updated_at: 2010-09-23 19:02:43.812225
+articles_003: 
+  id: 3
+  name: Prestations
+  title: Prestations
+  content: |-
+    zfezefzefsf
+    ds
+    fqs
+    f
+    sqd
+    f
+    qsd
+    f
+    sq
+    f
+    sqdfsdqfsqdfsd
+  created_at: 2010-10-01 13:33:43.171695
+  updated_at: 2010-10-01 13:33:43.171695
+articles_004: 
+  id: 4
+  name: Conception
+  title: conception
+  content: Bla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla bla
+  created_at: 2010-10-01 13:34:06.062005
+  updated_at: 2010-10-01 13:34:06.062005

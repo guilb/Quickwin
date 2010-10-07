@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+
+<% if @extension=="jpg" %>
+	<%= "image" %>
+<% elsif @extension="swf" %>
+	<%= "animation" %>
+<% else %>
+	<%= "probleme" %>
+<% end %>
+<p>
+  <b>Name:</b>
+  <%= @media.name %>
+</p>
+
+<p>
+  <b>File:</b>
+  <%= @media.file %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @media.type %>
+</p>
+<%= swf_object("/swfs/360_1.swf", "flash_id", "550", "400", "9", "#000000",
+        {:wmode => "transparent", :quality => "high"},
+        {:myvar1 => "foo1", :myvar2 => "foo2"},
+        true) %>-->
+<div id='flash_id' align='center'>This website requires <a href='http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&promoid=BIOW' target='_blank'>Flash player</a> 9 or higher.</div><script type='text/javascript'>var so = new SWFObject('/swfs/360_1.swf', 'flash_id', '550', '400', '9', '#000000');so.addParam('wmode', 'transparent');so.addParam('quality', 'high');so.addVariable('myvar1', 'foo1');so.addVariable('myvar2', 'foo2');so.write('flash_id');</script>
+<!--
+<%= link_to 'Edit', edit_media_path(@media) %> |
+<%= link_to 'Back', medias_path %>-->

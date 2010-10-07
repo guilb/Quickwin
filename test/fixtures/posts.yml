@@ -1,0 +1,17 @@
+--- 
+posts_001: 
+  id: 1
+  name: "Fran\xC3\xA7ois"
+  title: 1er Test
+  content: |-
+    Un peu de contenu pour faire un test
+    avec un saut de ligne
+  created_at: 2010-09-16 18:50:39.400904
+  updated_at: 2010-09-16 18:50:39.400904
+posts_002: 
+  id: 2
+  name: test
+  title: testmlmljm
+  content: ""
+  created_at: 2010-09-20 14:23:54.891594
+  updated_at: 2010-09-20 14:23:54.891594
